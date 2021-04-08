@@ -69,3 +69,10 @@ Modify the following `marketplace.json`. The details for each property are provi
     "markdown": "https://raw.githubusercontent.com/redislabs-training/redis-sitesearch/master/README.md", // Link to the RAW Markdown.
 }
 ```
+
+### Other examples:
+[Example Leaderboard app](https://github.com/redis-developer/basic-redis-leaderboard-demo-nodejs/blob/master/marketplace.json)
+
+[Bitmaps analytics app](https://github.com/redis-developer/basic-analytics-dashboard-redis-bitmaps-nodejs/blob/main/marketplace.json)
+
+ [All these apps](https://github.com/redis-developer?q=basic&type=&language=&sort=) have a marketplace.json
