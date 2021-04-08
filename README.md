@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/redis-developer/adding-apps-to-redis-marketplace/master/marketplace-app-banner.png" ></img>
+
 To add your project to Redis Marketplace:
 1. Modify and add the following `marketplace.json` file to your repository's root. 
 2. Open an issue on this project asking for us to fork it.
