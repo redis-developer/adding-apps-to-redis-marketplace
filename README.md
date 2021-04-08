@@ -1,11 +1,48 @@
 To add your project to Redis Marketplace:
-1. Add the following `marketplace.json` file to your repository's root. 
+1. Modify and add the following `marketplace.json` file to your repository's root. 
 2. Open an issue on this project asking for us to fork it.
 3. Make sure the "hidden" flag is `true`. We'll switch it to `false` after we review it and fork it. 
 4. Your app will be live automatically.
 
 
 Modify the following `marketplace.json`. The details for each property are provided in comments.
+```
+{
+    "app_name": "",  //Name of the app
+    "description": "", // One line description
+    "hidden": "", // Can be "true" or "false". If true, this app won't show up in Marketplace.
+    "rank": "", // This is used to sort the apps in the marketplace. 1 to 20 are reserved. Enter greater than 20
+    "type": "", //Can be "Building Block" or "Full App"
+    "contributed_by": "", // Can be "Redis Labs" or "Community" or "Partner"
+    "repo_url": "", //This is the Gitub Repo's URL.
+    "download_url": "",
+    "hosted_url": "", //The URL of the app. if you are hosting this app somewhere
+    "quick_deploy": "", //"frue" if the project has Heroku, Vercel, Google deploy buttons
+    "deploy_buttons": [
+        {
+            "heroku": "" //Deploy button URL for deploying on Heroku
+        },
+        {
+            "vercel": "" //Deploy button URL for deploying on Vercel
+        },
+        {
+            "Google": "" //Deploy button URL for deploying on Google cloud.
+        }
+    ],
+    "language": [], // Backend technologies: "JavaScript", "Java", "Python", "Go", "C#", "Ruby", "PHP", etc. 
+    "redis_commands": [], // Enter all the Redis commands
+    "redis_features": ["caching"],// Enter any core Redis feature or leave it blank.
+    "redis_modules": [], //Value can be one or more of: "RediJSON", "", "RedisTimeseries", "RedisAI"  "RedisGears" or "RedisGraph" listed in an array. 
+    "app_image_urls": [
+    ], // Provide any image urls in an array.
+    "youtube_url": "", //Provide a Youtube link to your app's video
+    "special_tags": [], // "Hackathon", "Paid", or any event names.
+    "verticals": [], // Can be: "Healthcare", "Financial", "Tourism", "Retail", "Oil & Gas", "Manufacturing", "Technology","Education", "Construction"  
+    "markdown": "", // Link to the RAW Markdown.
+}
+```
+
+## Example:
 ```
 {
     "app_name": "Basic Redis caching example in Nodejs",  //Name of the app
