@@ -18,21 +18,11 @@ Modify the following `marketplace.json`. The details for each property are provi
     "download_url": "",
     "hosted_url": "", //The URL of the app. if you are hosting this app somewhere
     "quick_deploy": "", //"frue" if the project has Heroku, Vercel, Google deploy buttons
-    "deploy_buttons": [
-        {
-            "heroku": "" //Deploy button URL for deploying on Heroku
-        },
-        {
-            "vercel": "" //Deploy button URL for deploying on Vercel
-        },
-        {
-            "Google": "" //Deploy button URL for deploying on Google cloud.
-        }
-    ],
+    "deploy_buttons": [],//Deploy buttons for "heroku", "vercel" or "Google" in the form of objects.
     "language": [], // Backend technologies: "JavaScript", "Java", "Python", "Go", "C#", "Ruby", "PHP", etc. 
     "redis_commands": [], // Enter all the Redis commands
     "redis_features": ["caching"],// Enter any core Redis feature or leave it blank.
-    "redis_modules": [], //Value can be one or more of: "RediJSON", "", "RedisTimeseries", "RedisAI"  "RedisGears" or "RedisGraph" listed in an array. 
+    "redis_modules": [], //Value can be one or more of "RediJSON", "", "RedisTimeseries", "RedisAI"  "RedisGears" or "RedisGraph" listed in an array. 
     "app_image_urls": [
     ], // Provide any image urls in an array.
     "youtube_url": "", //Provide a Youtube link to your app's video
@@ -69,7 +59,7 @@ Modify the following `marketplace.json`. The details for each property are provi
     "language": ["JavaScript"], // Backend technologies: "JavaScript", "Java", "Python", "Go", "C#", "Ruby", "PHP", etc. 
     "redis_commands": ["SETEX"], // Enter all the Redis commands
     "redis_features": ["caching"],// Enter any core Redis feature or leave it blank.
-    "redis_modules": [], //Value can be one or more of: "RediJSON", "RediSearch", "RedisTimeseries", "RedisAI"  "RedisGears" or "RedisGraph" listed in an array. 
+    "redis_modules": [], //Value can be one or more of "RediJSON", "RediSearch", "RedisTimeseries", "RedisAI"  "RedisGears" or "RedisGraph" listed in an array. 
     "app_image_urls": [
         "https://github.com/redis-developer/basic-caching-demo-nodejs/blob/main/docs/screenshot001.png?raw=true"
     ], // Provide any image urls in an array.
