@@ -71,8 +71,8 @@ Modify the following `marketplace.json`. The details for each property are provi
 ```
 
 ### Other examples:
-[Example Leaderboard app](https://github.com/redis-developer/basic-redis-leaderboard-demo-nodejs/blob/master/marketplace.json)
+1. [Example Leaderboard app](https://github.com/redis-developer/basic-redis-leaderboard-demo-nodejs/blob/master/marketplace.json)
 
-[Bitmaps analytics app](https://github.com/redis-developer/basic-analytics-dashboard-redis-bitmaps-nodejs/blob/main/marketplace.json)
+2. [Bitmaps analytics app](https://github.com/redis-developer/basic-analytics-dashboard-redis-bitmaps-nodejs/blob/main/marketplace.json)
 
- [All these apps](https://github.com/redis-developer?q=basic&type=&language=&sort=) have a marketplace.json
+ 3. [All these apps have a marketplace.json](https://github.com/redis-developer?q=basic&type=&language=&sort=) 
