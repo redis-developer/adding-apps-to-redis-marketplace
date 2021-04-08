@@ -1,12 +1,13 @@
 <img src="https://raw.githubusercontent.com/redis-developer/adding-apps-to-redis-marketplace/master/marketplace-app-banner.png" ></img>
 
-To add your project to Redis Marketplace:
+## How to add your projects to the Redis Marketplace
 1. Modify and add the following `marketplace.json` file to your repository's root. 
 2. Open an issue on this project asking for us to fork it.
 3. Make sure the "hidden" flag is `true`. We'll switch it to `false` after we review it and fork it. 
 4. Your app will be live automatically.
 
 
+### marketplace.json
 Modify the following `marketplace.json`. The details for each property are provided in comments.
 ```
 {
@@ -34,7 +35,7 @@ Modify the following `marketplace.json`. The details for each property are provi
 }
 ```
 
-## Example:
+### Example:
 ```
 {
     "app_name": "Basic Redis caching example in Nodejs",  //Name of the app
