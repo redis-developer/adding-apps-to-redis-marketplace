@@ -8,7 +8,7 @@
 
 
 ### marketplace.json
-Modify the following `marketplace.json`. The details for each property are provided in comments.
+Modify the following `marketplace.json`. The details for each property are provided in comments. Fields that are optional: `quick_deploy`, `deploy_button`
 ```
 {
     "app_name": "",  //Name of the app
@@ -18,7 +18,7 @@ Modify the following `marketplace.json`. The details for each property are provi
     "type": "", //Can be "Building Block" or "Full App"
     "contributed_by": "", // Can be "Redis Labs" or "Community" or "Partner"
     "repo_url": "", //This is the Gitub Repo's URL.
-    "download_url": "",
+    "download_url": "",//This is a direct link to the Github's download button so people can download it directly from the Marketplace
     "hosted_url": "", //The URL of the app. if you are hosting this app somewhere
     "quick_deploy": "", //"frue" if the project has Heroku, Vercel, Google deploy buttons
     "deploy_buttons": [],//Deploy buttons for "heroku", "vercel" or "Google" in the form of objects.
