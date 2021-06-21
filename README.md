@@ -20,7 +20,7 @@ Modify the following `marketplace.json`. The details for each property are provi
     "repo_url": "", //This is the Gitub Repo's URL.
     "download_url": "",//This is a direct link to the Github's download button so people can download it directly from the Marketplace
     "hosted_url": "", //The URL of the app. if you are hosting this app somewhere
-    "quick_deploy": "", //"frue" if the project has Heroku, Vercel, Google deploy buttons
+    "quick_deploy": "", //"true" if the project has Heroku, Vercel, Google deploy buttons
     "deploy_buttons": [],//Deploy buttons for "heroku", "vercel" or "Google" in the form of objects.
     "language": [], // Backend technologies: "JavaScript", "Java", "Python", "Go", "C#", "Ruby", "PHP", etc. 
     "redis_commands": [], // Enter all the Redis commands
@@ -47,7 +47,7 @@ Modify the following `marketplace.json`. The details for each property are provi
     "repo_url": "https://github.com/redis-developer/basic-caching-demo-nodejs", //This is the Gitub Repo's URL.
     "download_url": "https://github.com/redis-developer/basic-caching-demo-nodejs/archive/main.zip",
     "hosted_url": "", //The URL of the app. if you are hosting this app somewhere
-    "quick_deploy": "true", //"frue" if the project has Heroku, Vercel, Google deploy buttons
+    "quick_deploy": "true", //"true" if the project has Heroku, Vercel, Google deploy buttons
     "deploy_buttons": [
         {
             "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/basic-caching-demo-nodejs" //Deploy button URL for deploying on Heroku
