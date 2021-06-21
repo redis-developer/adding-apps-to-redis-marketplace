@@ -31,7 +31,7 @@ Modify the following `marketplace.json`. The details for each property are provi
     "youtube_url": "", //Provide a Youtube link to your app's video
     "special_tags": [], // "Hackathon", "Paid", or any event names.
     "verticals": [], // Can be: "Healthcare", "Financial", "Tourism", "Retail", "Oil & Gas", "Manufacturing", "Technology","Education", "Construction"  
-    "markdown": "", // Link to the RAW Markdown.
+    "markdown": "" // Link to the RAW Markdown.
 }
 ```
 
@@ -69,7 +69,7 @@ Modify the following `marketplace.json`. The details for each property are provi
     "youtube_url": "", //Provide a Youtube link to your app's video
     "special_tags": [], // "Hackathon", "Paid", or any event names.
     "verticals": ["Healthcare", "Financial"], // Can be: "Healthcare", "Financial", "Tourism", "Retail", "Oil & Gas", "Manufacturing", "Technology","Education", "Construction"  
-    "markdown": "https://raw.githubusercontent.com/redislabs-training/redis-sitesearch/master/README.md", // Link to the RAW Markdown.
+    "markdown": "https://raw.githubusercontent.com/redislabs-training/redis-sitesearch/master/README.md" // Link to the RAW Markdown.
 }
 ```
 
