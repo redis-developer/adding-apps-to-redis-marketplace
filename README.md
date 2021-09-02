@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/redis-developer/adding-apps-to-redis-marketplace/master/marketplace-app-banner.png" ></img>
 
-## How to add your projects to the Redis Marketplace
+## How to add your projects to the Redis Launchpad
 1. Modify and add the following `marketplace.json` file to your repository's root. 
 2. Open an issue on this project asking for us to fork it.
 3. Make sure the "hidden" flag is `true`. We'll switch it to `false` after we review it and fork it. 
@@ -13,8 +13,8 @@ Modify the following `marketplace.json`. The details for each property are provi
 {
     "app_name": "",  //Name of the app
     "description": "", // One line description
-    "hidden": "", // Can be "true" or "false". If true, this app won't show up in Marketplace.
-    "rank": "", // This is used to sort the apps in the marketplace. 1 to 20 are reserved. Enter greater than 20
+    "hidden": "", // Can be "true" or "false". If true, this app won't show up in Launchpad.
+    "rank": "", // This is used to sort the apps in the launchpad. 1 to 20 are reserved. Enter greater than 20
     "type": "", //Can be "Building Block" or "Full App"
     "contributed_by": "", // Can be "Redis Labs" or "Community" or "Partner"
     "repo_url": "", //This is the Gitub Repo's URL.
@@ -40,7 +40,7 @@ Modify the following `marketplace.json`. The details for each property are provi
 {
     "app_name": "Basic Redis caching example in Nodejs",  //Name of the app
     "description": "Showcases how to impliment caching in NodeJS", // One line description
-    "hidden": false, // Can be "true" or "false". If true, this app won't show up in Marketplace.
+    "hidden": false, // Can be "true" or "false". If true, this app won't show up in Launchpad.
     "rank": 20, // This is used to sort the apps in the marketplace. 1 to 20 are reserved. Enter greater than 20
     "type": "Building Block", //Can be "Building Block" or "Full App"
     "contributed_by": "Redis Labs", // Can be "Redis Labs" or "Community" or "Partner"
