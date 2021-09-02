@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/redis-developer/adding-apps-to-redis-marketplace/master/marketplace-app-banner.png" ></img>
+<img src="https://raw.githubusercontent.com/redis-developer/adding-apps-to-redis-marketplace/master/launchpad_app_banner.png" ></img>
 
 ## How to add your projects to the Redis Launchpad
 1. Modify and add the following `marketplace.json` file to your repository's root. 
